@@ -32,4 +32,4 @@ random.shuffle(password_list)
 final = [''.join(password_list)]
 
 for items in final:
-  print(items)
+  print(f" Keep your passwords:\n {items}")
